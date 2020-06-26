@@ -70,7 +70,7 @@ def print_mimic(mimic_dict, start_word):
         if not nexts:
             nexts = mimic_dict['']
         start_word = random.choice(nexts)
-        
+
 
 
 # Provided main(), calls mimic_dict() and print_mimic()
